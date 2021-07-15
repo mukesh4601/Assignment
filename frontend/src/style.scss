@@ -1,0 +1,53 @@
+@import '~antd/dist/antd.css';
+@import "~bootstrap/scss/bootstrap";
+
+:root {
+    --primary-color: #3b7ef2;
+    --heading-color: #2d303e;
+    --sub-text: #888888;
+}
+
+
+
+.sub-text {
+    color: var(--sub-text) !important;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.78;
+    letter-spacing: normal;
+}
+
+
+
+// Button Styling
+.btn-default,
+.btn-default:focus,
+.btn-default:active,
+.btn-default:hover {
+    background-color: var(--primary-color) !important;
+    padding: 10px 35px;
+    font-size: 13px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: white !important;
+    text-transform: capitalize;
+}
+
+// Margin Styling
+.md10 {
+    margin-top: 10px;
+}
+
+.md20 {
+    margin-top: 20px;
+}
+
+.md50 {
+    margin-top: 50px;
+}
